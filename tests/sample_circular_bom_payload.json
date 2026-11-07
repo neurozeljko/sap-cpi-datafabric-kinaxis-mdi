@@ -1,0 +1,28 @@
+{
+  "MasterDataItems": [
+    {
+      "MaterialID": "PART-A",
+      "Description": "Assembly Unit Alpha",
+      "Plant": "1010",
+      "Components": [
+        { "ComponentID": "PART-B", "Quantity": 1.0 }
+      ]
+    },
+    {
+      "MaterialID": "PART-B",
+      "Description": "Sub-Assembly Beta",
+      "Plant": "1010",
+      "Components": [
+        { "ComponentID": "PART-C", "Quantity": 1.0 }
+      ]
+    },
+    {
+      "MaterialID": "PART-C",
+      "Description": "Recursive Coupling Gamma",
+      "Plant": "1010",
+      "Components": [
+        { "ComponentID": "PART-A", "Quantity": 1.0 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "MasterDataItems": [
+    {
+      "MaterialID": "MAT-DRIVE-AXLE-01",
+      "Description": "Heavy Duty Drive Axle",
+      "Plant": "1010",
+      "BaseUnitOfMeasure": "PCE",
+      "LeadTimeDays": 21,
+      "Components": [
+        { "ComponentID": "MAT-BEARING-SUB-01", "Quantity": 2.0 },
+        { "ComponentID": "MAT-GEAR-BOX-99", "Quantity": 1.0 }
+      ]
+    },
+    {
+      "MaterialID": "MAT-BEARING-SUB-01",
+      "Description": "Roller Bearing Assembly",
+      "Plant": "1010",
+      "BaseUnitOfMeasure": "PCE",
+      "LeadTimeDays": 7,
+      "Components": []
+    }
+  ]
+}
