@@ -20,9 +20,13 @@ This architecture establishes a **Resilient Enterprise Supply Chain Data Fabric*
 
 ---
 
-## Architectural Topology
+## Architecture Overview
 
-```
+![SAP CPI Data Fabric Kinaxis Runtime Architecture](sap-cpi-datafabric-kinaxis-runtime-architecture.png)
+
+### High-Level Topology
+
+```text
 [SAP S/4HANA Cloud / SAP MDI (One Domain Model)]
           │
           │ Event-Driven Delta Webhook (/fabric/mdi/masterdata/sync)
@@ -117,8 +121,9 @@ mutation UpsertPartMasterBatch($input: PartMasterBatchInput!) {
 
 ## Repository Structure
 
-```
+```text
 ├── README.md                                             # Architecture specification & operations runbook
+├── sap-cpi-datafabric-kinaxis-runtime-architecture.png   # Integration flow runtime topology diagram
 ├── ADR-003-DataFabric-MDI-Kinaxis-GraphQL.md             # Architecture Decision Record
 ├── IF_DataFabric_Kinaxis_MDI_DeltaSync.zip               # Production iFlow runtime bundle export
 ├── cpi/
